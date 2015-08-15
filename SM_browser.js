@@ -29,11 +29,11 @@
 
     var descriptor = {
         blocks: [
-            [' ', 'alert %s', 'alert', ''],
+            [' ', 'alert %s', 'alert', 'Hello'],
             ['b', 'confirm %s', 'confirm', 'Are you sure?'],
             ['r', 'ask %s', 'ask', 'How are you?'],
-            [' ', 'set tab name to %s', 'setTitle', 'title'],
-            [' ', 'open tab with %s', 'openTab', 'https://scratch.mit.edu/']
+            [' ', 'set tab name to %s', 'setTitle', 'Hello world'],
+            [' ', 'open new tab URL: %s', 'openTab', 'https://scratch.mit.edu/']
         ]
     };
 
